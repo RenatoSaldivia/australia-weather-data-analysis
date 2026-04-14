@@ -76,9 +76,13 @@ cd weather-data-crispdm-analysis
 ```
 - Open the notebook using Jupyter Notebook or Google Colab.
 
+---
+
 ## 👥 Collaboration
 
 - This project was developed as part of my studies, working in a team environment.
+
+---
 
 ## 🎯 Key Focus
 - Real-world dataset handling
