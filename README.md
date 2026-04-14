@@ -1,41 +1,86 @@
-# Proyecto ML-CRISPDM
+# 🌦️ Weather Data Analysis (CRISP-DM Approach)
 
-Este es un proyecto realizado como parte de mis estudios en **Duoc UC**. El objetivo del proyecto fue aplicar la metodología **CRISP-DM** (Cross-Industry Standard Process for Data Mining) para trabajar con un conjunto de datos meteorológicos de Australia.
+📊 Data preparation and exploratory analysis of Australian weather data using the CRISP-DM methodology.
 
-El flujo de trabajo cubre todo el proceso de minería de datos, desde la carga y limpieza de los datos, hasta la preparación para el modelado, siguiendo los pasos establecidos por CRISP-DM.
+This project focuses on cleaning, transforming, and understanding a real-world dataset in order to prepare it for future machine learning models.
 
-## Metodología CRISP-DM
+---
 
-El proyecto sigue los seis pasos de la metodología **CRISP-DM**, pero se detiene antes de la parte de modelado, específicamente en la preparación de los datos. Los pasos seguidos son:
+## 🧠 Project Objective
 
-1. **Comprensión del negocio**: Entender el objetivo del análisis de datos meteorológicos.
-2. **Comprensión de los datos**: Cargar y explorar la base de datos de datos meteorológicos de Australia.
-3. **Preparación de los datos**: Limpieza y transformación de los datos para hacerlos adecuados para el análisis.
-4. **Modelado**: Aunque se ha llegado hasta la preparación de los datos, se contempla que el siguiente paso sería construir modelos predictivos.
+The goal of this project is to apply the **CRISP-DM (Cross-Industry Standard Process for Data Mining)** methodology to a weather dataset from Australia.
 
-## Descripción del proyecto
+Instead of focusing on modeling, this project emphasizes:
 
-Este proyecto utiliza datos meteorológicos de Australia. La base de datos contiene información sobre diversas variables climáticas, y el objetivo principal es procesar y limpiar los datos para su análisis posterior.
+- Understanding the data  
+- Cleaning and preprocessing  
+- Preparing a solid foundation for future predictive models  
 
-### Objetivos
+---
 
-- **Cargar y explorar los datos**: Entender qué tipo de información contiene la base de datos.
-- **Limpiar los datos**: Eliminar valores nulos, corregir inconsistencias y transformar variables para asegurar que los datos sean útiles.
-- **Aplicar la metodología CRISP-DM**: Seguir los pasos de la metodología de minería de datos hasta la fase de preparación de datos.
+## 🔄 CRISP-DM Process
 
-## Estructura del proyecto
+This project follows the main stages of CRISP-DM up to data preparation:
 
-El proyecto está compuesto por un archivo Jupyter Notebook llamado **`ML-CrispDM.ipynb`**, donde se desarrolla todo el trabajo de carga, limpieza y análisis de los datos.
+1. **Business Understanding**  
+   Define the purpose of analyzing weather data  
 
-- **`ML-CrispDM.ipynb`**: Este archivo contiene todo el proceso de trabajo, desde la carga de los datos hasta la limpieza y preparación para el modelado.
-- **`data/`**: Contiene los archivos de datos originales (puedes agregar esta carpeta si tu proyecto tiene datos).
+2. **Data Understanding**  
+   Explore structure, variables, and data quality  
 
-## Requisitos
+3. **Data Preparation**  
+   - Handle missing values  
+   - Clean inconsistent data  
+   - Transform variables for analysis  
 
-Para ejecutar el proyecto, asegúrate de tener instalado Python y las siguientes librerías:
+4. **Modeling (Planned)**  
+   Future step: build predictive models based on prepared data  
 
-- pandas
-- numpy
-- matplotlib
-- seaborn
-- scikit-learn
+---
+
+## 📊 Dataset
+
+- Australian Weather Dataset  
+- Includes variables such as:
+  - Temperature  
+  - Rainfall  
+  - Wind conditions  
+  - Humidity  
+  - Other climate indicators  
+
+---
+
+## 🛠️ Tech Stack
+
+- Python  
+- Pandas  
+- NumPy  
+- Matplotlib  
+- Seaborn  
+- Scikit-learn  
+
+---
+
+## 📁 Project Structure
+
+- `ML-CrispDM.ipynb` → Full data analysis and preprocessing  
+- `data/` → Dataset files (if included)  
+
+---
+
+## 🚀 How to Run
+
+```bash
+git clone https://github.com/RenatoSaldivia/weather-data-crispdm-analysis.git
+cd weather-data-crispdm-analysis
+```
+- Open the notebook using Jupyter Notebook or Google Colab.
+
+## 👥 Collaboration
+
+- This project was developed as part of my studies, working in a team environment.
+
+## 🎯 Key Focus
+- Real-world dataset handling
+- Data cleaning and preprocessing
+- Structured analytical workflow (CRISP-DM)
