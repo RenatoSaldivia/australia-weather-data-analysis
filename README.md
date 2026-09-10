@@ -9,7 +9,7 @@ Accurate meteorological forecasting is vital for agriculture, logistics, and res
 
 - **Target Variable:** `RainTomorrow` (Binary: 0 = No Rain, 1 = Rain).
 - **Primary Optimization Metric:** ROC-AUC and Minority-Class Recall.
-- **Data Source:** [Kaggle - Rain in Australia Dataset](https://www.kaggle.com/datasets/jsphgvr/weather-dataset-rattle-package) (140k+ records).
+- **Data Source:** [Kaggle - Australia Weather Data](https://www.kaggle.com/datasets/arunavakrchakraborty/australia-weather-data) (140k+ records).
 
 ---
 
@@ -66,3 +66,13 @@ Three algorithmic architectures were evaluated using class-weight balancing:
 ├── weather_rainfall_prediction_crispdm.ipynb  # Full CRISP-DM notebook
 ├── .gitignore                                # Ignores raw datasets and binary models
 └── README.md                                 # Technical documentation
+```
+---
+
+## How to Run
+- Clone this repository: 
+  ```bash
+  git clone https://github.com/RenatoSaldivia/weather-aus-rainfall-prediction-crispdm.git
+  ```
+- Download the dataset (weatherAUS.csv) from Kaggle - Australia Weather Data and place it in the project root directory.
+- Open weather_rainfall_prediction_crispdm.ipynb in Google Colab or Jupyter Notebook and run all cells sequentially.
