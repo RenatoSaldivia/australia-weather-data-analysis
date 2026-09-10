@@ -72,7 +72,7 @@ Three algorithmic architectures were evaluated using class-weight balancing:
 ## How to Run
 - Clone this repository: 
   ```bash
-  git clone https://github.com/RenatoSaldivia/weather-aus-rainfall-prediction-crispdm.git
+  git clone https://github.com/RenatoSaldivia/australia-weather-data-analysis.git
   ```
 - Download the dataset (weatherAUS.csv) from Kaggle - Australia Weather Data and place it in the project root directory.
 - Open weather_rainfall_prediction_crispdm.ipynb in Google Colab or Jupyter Notebook and run all cells sequentially.
